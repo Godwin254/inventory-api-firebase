@@ -1,0 +1,31 @@
+{
+  "name": "inventory-api-firebase",
+  "version": "1.0.0",
+  "description": "an inventory API using firebase functions with CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godwin254/inventory-api-firebase.git"
+  },
+  "author": "brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Godwin254/inventory-api-firebase/issues"
+  },
+  "homepage": "https://github.com/Godwin254/inventory-api-firebase#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0"
+  }
+}
