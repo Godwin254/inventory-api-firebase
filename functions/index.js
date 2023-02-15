@@ -1,8 +1,7 @@
 const functions = require("firebase-functions");
-const admin = require("firebase-admin");
 const express = require("express");
 const cors = require("cors");
-
+require("dotenv").config();
 const app = express();
 
 app.use(cors());
