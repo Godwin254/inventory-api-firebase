@@ -9,9 +9,9 @@ module.exports = (app) => {
             next();
       });
 
-      app.get('/api/v1/inventories/', controller.allInventory);
-      app.get('/api/v1/inventories/:id', controller.singleInventory);
-      app.post('/api/v1/inventories/', controller.createInventory);
-      app.put('/api/v1/inventories/:id', controller.updateInventory);
-      app.delete('/api/v1/inventories/:id', controller.deleteInventory);
+      app.get('/inventories/', controller.allInventory);
+      app.get('/inventories/:id', controller.singleInventory);
+      app.post('/inventories/', controller.createInventory);
+      app.put('/inventories/:id', controller.updateInventory);
+      app.delete('/inventories/:id', controller.deleteInventory);
 }

@@ -1,7 +1,6 @@
-
 // Importing db from dbConfig.js
-const db = require('../model/dbConfig');
-//CRUD operations for inventory
+const db = require('../models/dbConfig');
+
 
 exports.allInventory = (req, res) => {
 
@@ -84,3 +83,4 @@ exports.deleteInventory = (req, res) => {
                   console.log(error);
             });
 }
+
