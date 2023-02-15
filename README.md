@@ -35,3 +35,4 @@ A simple express api, that utilizes firebase cloud functions & firestore and per
 - `PUT functions_url/inventories/id` - updates a single inventory
 - `DELETE functions_url/inventories` - delete a single inventory
 
+Chech the [postman documentation](https://documenter.getpostman.com/view/14678284/2s93CEwwXo)
